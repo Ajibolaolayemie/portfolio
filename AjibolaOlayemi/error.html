@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #07111f;
+        --card: #101d32;
+        --text: #f4f7fb;
+        --muted: #adc0d7;
+        --accent: #ff7a00;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, var(--bg), #152646);
+        color: var(--text);
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 1.5rem;
+      }
+
+      .card {
+        max-width: 520px;
+        width: 100%;
+        background: var(--card);
+        border: 1px solid rgba(255,255,255,0.12);
+        border-radius: 18px;
+        padding: 2rem;
+        text-align: center;
+        box-shadow: 0 18px 40px rgba(0,0,0,0.25);
+      }
+
+      h1 {
+        font-size: 2.2rem;
+        margin: 0 0 0.7rem;
+      }
+
+      p {
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
+      .btn {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 0.8rem 1.2rem;
+        text-decoration: none;
+        background: var(--accent);
+        color: #07111f;
+        font-weight: 700;
+        border-radius: 999px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Oops! Something went wrong.</h1>
+      <p>The page you are looking for could not be found or the request failed.</p>
+      <a class="btn" href="index.html">Go back home</a>
+    </div>
+  </body>
+</html>
