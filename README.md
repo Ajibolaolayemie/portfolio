@@ -1,32 +1,37 @@
-# Japan Food Price Tracker
+# Ajibola Olayemi Portfolio
 
-A simple app for tracking food prices in Japan with a React frontend and a Node.js backend.
+This is a simple static portfolio website built to showcase my background, skills, certifications, and projects as I continue learning web development and AWS.
 
-## Structure
+## Features
+- Responsive one-page layout
+- About section
+- Skills section
+- Certifications section
+- Projects section
+- Contact section
 
-- `frontend/` - Vite + React user interface
-- `backend/` - Express API for sample price data
+## How to View
+Open the index.html file in your browser, or run a simple local server from the project folder.
 
-## Local development
+## Files
+- index.html - main portfolio page
+- style.css - styling for the website
+- error.html - simple error page
 
-Install dependencies:
+## Deploy to AWS Amplify
+This project is being hosted with AWS Amplify.
 
-```bash
-npm install
-```
+### What to do next
+1. Connect your GitHub repository to AWS Amplify.
+2. Select the main branch for deployment.
+3. Set the build settings for a static site.
+4. Deploy and confirm the live URL.
 
-Run frontend and backend together:
+### Suggested build settings
+- Build command: leave blank or use a simple static site setup
+- Output directory: /AjibolaOlayemi
 
-```bash
-npm run dev
-```
-
-The frontend runs on `http://localhost:5173` and the backend API runs on `http://localhost:4000`.
-
-## API
-
-- `GET /api/prices` - returns sample food price items and last update timestamp
-
-## Notes
-
-This scaffold includes sample data and UI for tracking Japanese food prices. Extend it with real data sources, authentication, or price history tracking.
+## Future Plans
+- Add real projects and case studies
+- Include more certifications and achievements
+- Explore CloudFront and Route 53 for a custom domain
